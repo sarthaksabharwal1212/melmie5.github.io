@@ -91,7 +91,13 @@ song1.addEventListener('click', ()=>{
    masterplay.classList.remove("fa-play");
    masterplay.classList.add("fa-pause");
    songname.innerText="legends never die"
-   
+   audioelement2.pause();
+   audioelement3.pause();
+   audioelement4.pause();
+   audioelement5.pause();
+   audioelement6.pause();
+   audioelement7.pause();
+
 
   }
    
@@ -117,7 +123,12 @@ song1.addEventListener('click', ()=>{
      masterplay.classList.remove("fa-play");
      masterplay.classList.add("fa-pause");
      songname.innerText="Faded"
-  
+  audioelement1.pause();
+   audioelement3.pause();
+   audioelement4.pause();
+   audioelement5.pause();
+   audioelement6.pause();
+   audioelement7.pause();
     }
      
    else {audioelement2.pause();
@@ -141,6 +152,12 @@ song1.addEventListener('click', ()=>{
        masterplay.classList.remove("fa-play");
        masterplay.classList.add("fa-pause");
        songname.innerText="Blank space"
+        audioelement1.pause();
+   audioelement2.pause();
+   audioelement4.pause();
+   audioelement5.pause();
+   audioelement6.pause();
+   audioelement7.pause();
     
       }
        
@@ -170,7 +187,12 @@ song1.addEventListener('click', ()=>{
          masterplay.classList.remove("fa-play");
          masterplay.classList.add("fa-pause");
          songname.innerText="Blinding lights"
-      
+         audioelement1.pause();
+   audioelement2.pause();
+   audioelement3.pause();
+   audioelement5.pause();
+   audioelement6.pause();
+   audioelement7.pause();
         }
          
        else {audioelement4.pause();
@@ -192,7 +214,12 @@ song1.addEventListener('click', ()=>{
            masterplay.classList.remove("fa-play");
            masterplay.classList.add("fa-pause");
            songname.innerText="Poker Face"
-        
+         audioelement1.pause();
+   audioelement2.pause();
+   audioelement4.pause();
+   audioelement3.pause();
+   audioelement6.pause();
+   audioelement7.pause();
           }
            
          else {audioelement5.pause();
@@ -224,7 +251,12 @@ song1.addEventListener('click', ()=>{
              masterplay.classList.remove("fa-play");
              masterplay.classList.add("fa-pause");
              songname.innerText="Shape of You"
-          
+          audioelement1.pause();
+   audioelement2.pause();
+   audioelement4.pause();
+   audioelement5.pause();
+   audioelement3.pause();
+   audioelement7.pause();
             }
              
            else {audioelement6.pause();
@@ -260,7 +292,12 @@ song1.addEventListener('click', ()=>{
                masterplay.classList.remove("fa-play");
                masterplay.classList.add("fa-pause");
                songname.innerText="On The Floor"
-            
+            audioelement1.pause();
+               audioelement2.pause();
+               audioelement4.pause();
+               audioelement5.pause();
+               audioelement6.pause();
+               audioelement3.pause();
               }
                
              else {audioelement7.pause();
